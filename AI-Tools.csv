@@ -1,0 +1,7 @@
+Goal,Suggested tools
+Dataset ,"Kaggle datasets, Hugging Face Datasets"
+Pretrained model sourcing and evaluation,"Hugging Face Models, Hugging Face Hub"
+Model robustness testing,"ART (Adversarial Robustness Toolbox), CleverHans, Foolbox, SecML Counterfit"
+LLM prompt injection and RAG security tests,"LLMSCANPRO, CAI or similar LLM red team frameworks"
+Agent or automation pentesting with LLMs,"CAI, AI OPS assistants for exploit workflows"
+Secure deployment and monitoring of models,"ONNX Runtime, ModelScan / Guardian style scanners, AI Hardener like code or infra scanning stacks"

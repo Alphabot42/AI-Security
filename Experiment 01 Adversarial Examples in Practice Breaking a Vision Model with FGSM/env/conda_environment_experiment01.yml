@@ -1,0 +1,17 @@
+name: ai-security-exp01
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - cpuonly
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - tqdm
+  - pip
+  - pip:
+      - torchsummary

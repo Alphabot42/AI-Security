@@ -1,0 +1,10 @@
+# Experiment 02 requirements
+# Tested on Windows 11 with Python 3.11
+# CPU only PyTorch build
+
+torch
+torchvision
+numpy
+matplotlib
+scikit-learn
+tqdm
