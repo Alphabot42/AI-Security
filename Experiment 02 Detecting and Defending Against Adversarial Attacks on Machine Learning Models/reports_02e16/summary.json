@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 0.8758,
+  "clean_before": 0.842578125,
+  "fgsm_before": 0.62890625,
+  "pgd_before": 0.580859375,
+  "clean_after_adv_training": 0.87890625,
+  "fgsm_after_adv_training": 0.691015625,
+  "tau": 0.4476766288280487,
+  "detector_tpr_fgsm": 0.109765625,
+  "detector_tpr_pgd": 0.10546875,
+  "detector_accuracy_on_mix": 0.5298828125,
+  "timestamp": "2026-03-06 17:52:23"
+}
