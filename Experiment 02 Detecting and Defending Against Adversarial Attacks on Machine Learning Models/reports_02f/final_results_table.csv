@@ -1,0 +1,11 @@
+Evaluation stage,Metric value
+Baseline clean,0.8781
+FGSM attack,0.6418
+PGD attack,0.5777
+DeepFool attack,0.4043
+FGSM attack plus input transform,0.582
+PGD attack plus input transform,0.5688
+DeepFool attack plus input transform,0.3828
+Detection TPR FGSM,0.0848
+Detection TPR PGD,0.0906
+Detection TPR DeepFool,0.8492

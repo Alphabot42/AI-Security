@@ -1,0 +1,13 @@
+{
+    "baseline_accuracy": 0.8781,
+    "fgsm_accuracy": 0.641796875,
+    "pgd_accuracy": 0.577734375,
+    "deepfool_accuracy": 0.404296875,
+    "fgsm_transform_accuracy": 0.58203125,
+    "pgd_transform_accuracy": 0.56875,
+    "deepfool_transform_accuracy": 0.3828125,
+    "detector_tpr_fgsm": 0.084765625,
+    "detector_tpr_pgd": 0.090625,
+    "detector_tpr_deepfool": 0.84921875,
+    "tau": 0.401891827583313
+}
