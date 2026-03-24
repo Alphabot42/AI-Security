@@ -1,3 +1,7 @@
+<p align="center">
+  ⭐ If you find this work useful, consider starring the repository!
+</p>
+
 # When Meaning Breaks AI
 
 <p align="center">
