@@ -10,6 +10,12 @@ This repository is structured as a progressive research roadmap, starting from a
 
 ---
 
+<p align="center">
+  ⭐ If you find this work useful, consider starring the repository!
+</p>
+
+---
+
 # Research Phases
 
 The projects are organized into five progressive phases:
