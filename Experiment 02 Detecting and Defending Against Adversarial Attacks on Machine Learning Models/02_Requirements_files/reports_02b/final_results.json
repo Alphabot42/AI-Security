@@ -1,7 +1,0 @@
-{
-    "baseline_accuracy": 0.9794,
-    "fgsm_accuracy": 0.04046875,
-    "pgd_accuracy": 0.00015625,
-    "detector_tpr_fgsm": 0.1675,
-    "detector_tpr_pgd": 0.041875
-}
