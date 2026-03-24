@@ -1,4 +1,12 @@
-#<<<<<<< HEAD:Experiment 04 Securing Large Language Models Against Prompt Injection and Data Exfiltration/#RAG_Prompt_Injection_Attack_Defense_Demo_Bank/README.md
+---
+<p align="center">
+  ⭐ If you find this work useful, consider starring the repository!
+</p>
+---  
+
+
+
+
 # Securing a RAG System Against Prompt Injection
 ### Case Study – NovaTrust AI Platform
 
