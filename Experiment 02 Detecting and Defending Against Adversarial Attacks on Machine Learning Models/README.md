@@ -1,3 +1,9 @@
+---
+<p align="center">
+  ⭐ If you find this work useful, consider starring the repository!
+</p>
+---
+
 # Experiment 02 — Detecting and Defending Against Adversarial Attacks
 ## Robustness, Detection, and Adaptive Attacker Evaluation
 
