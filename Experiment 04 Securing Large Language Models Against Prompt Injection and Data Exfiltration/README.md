@@ -43,3 +43,57 @@ Activate the global environment:
 
 ```bash
 conda activate Env_Req_global_conda
+```
+
+Then run the notebooks inside each experiment folder.
+
+---
+
+## Experiments
+
+### 04a — Prompt Injection Defense (RAG / Bank scenario)
+
+- Simulated sensitive environment (bank context)
+- Injection through retrieved documents
+- Evaluation of model behavior under adversarial prompts
+
+---
+
+### 04b — Prompt Injection on LLM (Mistral)
+
+- Direct prompt manipulation
+- Instruction override attacks
+- Comparative analysis of model robustness
+
+---
+
+## Key Insight
+
+LLMs do not fail due to malformed inputs.
+
+They fail because they follow instructions too well.
+
+Prompt injection exploits this behavior by embedding malicious intent within seemingly valid inputs.
+
+---
+
+## Why it matters
+
+In real-world applications:
+
+- LLMs interact with untrusted data
+- Inputs may be adversarial by design
+- Sensitive information can be indirectly exposed
+
+This creates critical risks for:
+
+- RAG systems
+- AI assistants
+- Enterprise AI workflows
+
+---
+
+## Author
+
+Natacha Bakir  
+AI Security Researcher
