@@ -4,6 +4,10 @@
 
 <h1 align="center">Adversarial Attacks & Defenses on Machine Learning Models</h1>
 
+<p align="center">
+  <img src="cover_experiment_02.png" width="720">
+</p>
+
 ---
 
 ## Overview
@@ -18,18 +22,6 @@ This parent folder groups the full Experiment 02 series dedicated to adversarial
 conda activate Env_Req_global_conda
 ```
 
----
-
-## Visual Evidence
-
-### Clean vs adversarial example
-
-<p align="center">
-  <img src="ship_clean.png" width="250">
-  <img src="ship_perturbed.png" width="250">
-</p>
-
----
 
 ### Robustness curve
 
