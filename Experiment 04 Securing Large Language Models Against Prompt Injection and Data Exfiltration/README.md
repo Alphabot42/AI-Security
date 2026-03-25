@@ -5,7 +5,7 @@
 <h1 align="center">Securing Large Language Models Against Prompt Injection & Data Exfiltration</h1>
 
 <p align="center">
-  <img src="cat_inject.png" width="900">
+  <img src="Cat_inject.png" width="900">
 </p>
 
 <p align="center">
