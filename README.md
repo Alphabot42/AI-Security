@@ -32,26 +32,26 @@ The projects are organized into five progressive phases:
 
 ```text
 | Phase                              | Experiment                                      | Notebook                         | OWASP AI Top 10                         | Skills                               | Progress |
-|-----------------------------------|-------------------------------------------------|----------------------------------|-----------------------------------------|--------------------------------------|----------|
-| Phase 1 – Adversarial ML          | Practical Adversarial Attacks on Vision Models  | adversarial_samples_cifar10_demo | LLM02 Insecure Output Handling          | Offensive AI Security                | ██████████ 100% |
-| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02 LLM security series       | LLM02 Insecure Output Handling          | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02b pretrained variant       | LLM02 Insecure Output Handling          | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02c HF optimized             | LLM04 Model Denial of Service           | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02d HF detector 16 threads   | LLM09 Overreliance                      | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02e train detector MNIST     | LLM09 Overreliance                      | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02f input transform defense  | LLM09 Overreliance                      | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 2 – Modern Models (LLM)     | Evasion Attack on Sentiment Analysis            | 03a HFexplore_ evasion attack        | LLM01 Prompt Injection, LLM06 SID       | Offensive / Defensive AI Security    | ██████████ 100% |
-| Phase 2 – Modern Models (LLM)     | Evasion Attack on Sentiment Analysis            | 03b Llama evasion attack             | LLM01 Prompt Injection, LLM06 SID       | Offensive / Defensive AI Security    | █████░░░░░ 50% |
-| Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection          | 04a Attack_Defense_RAG_Hijacking     | LLM01 Prompt Injection, LLM06 SID       | Defensive AI Security                | ██████████ 100% |
-| Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection          | 04b Mistral prompt injection defenses| LLM01 Prompt Injection, LLM06 SID       | Defensive AI Security                | ██████████ 100% |
-| Phase 3 – Training Pipeline       | Membership Inference (Blackbox)                 | ART membership inference         | LLM06 Sensitive Information Disclosure  | Offensive AI Security                | ██░░░░░░░░ 25% |
-| Phase 3 – Training Pipeline       | Model Stealing (Copycat)                        | model extraction attack          | LLM10 Model Theft                       | Offensive AI Security                | █░░░░░░░░░ 10% |
-| Phase 3 – Training Pipeline       | Training Data Poisoning (Backdoor)              | ART poisoning attack             | LLM03 Training Data Poisoning           | Offensive AI Security                | █░░░░░░░░░ 10% |
-| Phase 4 – Defense Systems         | Anomaly Detection on OT Pipeline                | OT anomaly detection             | LLM08 Excessive Agency                  | DPM / DS / ML / MLOps                | ██░░░░░░░░ 25% |
-| Phase 5 – AI for Cybersecurity    | AI Assisted Cyber Threat Intelligence           | malware adversary tracking       | LLM06 SID, LLM07 Plugin Design          | Defensive AI Security                | ░░░░░░░░░░ 0% |
-| Phase 5 – AI for Cybersecurity    | AI Assisted Malware Reverse Engineering         | AI malware deobfuscation         | LLM06 SID, LLM07 Plugin Design          | Defensive AI Security                | ░░░░░░░░░░ 0% |
-| Phase 5 – AI for Cybersecurity    | AI Assisted Forensics                           | AI forensic investigation        | LLM06, LLM02, LLM08, LLM07              | Defensive AI Security                | ░░░░░░░░░░ 0% |
-| Capstone                          | Detecting AI Powered Malware                    | AI malware detection system      | LLM08 Excessive Agency, LLM02 IOH       | Defensive AI Security                | ░░░░░░░░░░ 0% |
+|-----------------------------------|-------------------------------------------------|----------------------------------|--------------------------------------------|------------------------------------|----------|
+| Phase 1 – Adversarial ML          | Practical Adversarial Attacks on Vision Models  | adversarial_samples_cifar10_demo | LLM02 Insecure Output Handling             | Offensive AI Security              | ██████████ 100% |
+| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02 LLM security series       | LLM02 Insecure Output Handling             | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02b pretrained variant       | LLM02 Insecure Output Handling             | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02c HF optimized             | LLM04 Model Denial of Service              | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02d HF detector 16 threads   | LLM09 Overreliance                         | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02e train detector MNIST     | LLM09 Overreliance                         | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 1 – Adversarial ML          | Detecting and Defending Against Adversarial Attacks | 02f input transform defense  | LLM09 Overreliance                         | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 2 – Modern Models (LLM)     | Evasion Attack on Sentiment Analysis                | 03a HFexplore_ evasion attack        | LLM01 Prompt Injection, LLM06 SID  | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 2 – Modern Models (LLM)     | Evasion Attack on Sentiment Analysis                | 03b Llama evasion attack             | LLM01 Prompt Injection, LLM06 SID  | Offensive / Defensive AI Security  | ██████████ 100% |
+| Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection              | 04a Attack_Defense_RAG_Hijacking     | LLM01 Prompt Injection, LLM06 SID  | Defensive AI Security              | ██████████ 100% |
+| Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection              | 04b Mistral prompt injection defenses| LLM01 Prompt Injection, LLM06 SID  | Defensive AI Security              | ██████████ 100% |
+| Phase 3 – Training Pipeline       | Membership Inference (Blackbox)                     | ART membership inference         | LLM06 Sensitive Information Disclosure | Offensive AI Security              | ██░░░░░░░░ 25% |
+| Phase 3 – Training Pipeline       | Model Stealing (Copycat)                            | model extraction attack          | LLM10 Model Theft                      | Offensive AI Security              | █░░░░░░░░░ 10% |
+| Phase 3 – Training Pipeline       | Training Data Poisoning (Backdoor)                  | ART poisoning attack             | LLM03 Training Data Poisoning          | Offensive AI Security              | █░░░░░░░░░ 10% |
+| Phase 4 – Defense Systems         | Anomaly Detection on OT Pipeline                    | OT anomaly detection             | LLM08 Excessive Agency                 | DPM / DS / ML / MLOps              | ██░░░░░░░░ 25% |
+| Phase 5 – AI for Cybersecurity    | AI Assisted Cyber Threat Intelligence               | malware adversary tracking       | LLM06 SID, LLM07 Plugin Design         | Defensive AI Security              | ░░░░░░░░░░ 0% |
+| Phase 5 – AI for Cybersecurity    | AI Assisted Malware Reverse Engineering             | AI malware deobfuscation         | LLM06 SID, LLM07 Plugin Design         | Defensive AI Security              | ░░░░░░░░░░ 0% |
+| Phase 5 – AI for Cybersecurity    | AI Assisted Forensics                               | AI forensic investigation        | LLM06, LLM02, LLM08, LLM07             | Defensive AI Security              | ░░░░░░░░░░ 0% |
+| Capstone                          | Detecting AI Powered Malware                        | AI malware detection system      | LLM08 Excessive Agency, LLM02 IOH      | Defensive AI Security              | ░░░░░░░░░░ 0% |
 ```
 
 ---
