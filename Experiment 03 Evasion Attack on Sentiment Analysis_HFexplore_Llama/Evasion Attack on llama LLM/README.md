@@ -2,7 +2,7 @@
 ⭐ <b>If you find this work useful, consider starring the repository!</b>
 </p>
 
-# Experiment 03b — Evasion Attack on Sentiment Analysis (LLM - LLaMA)
+# Experiment 03b - Evasion Attack on Sentiment Analysis (LLM - LLaMA)
 
 ---
 
