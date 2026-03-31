@@ -38,8 +38,8 @@ What happens when meaning — not syntax — is manipulated?
 - Robust to noise
 - Fragile to semantic manipulation
 
-### 03b — LLM (coming soon)
-- Same attacks applied to LLMs
+### 03b — LLM
+- Same attacks applied to LLMs (LLama)
 
 ---
 
