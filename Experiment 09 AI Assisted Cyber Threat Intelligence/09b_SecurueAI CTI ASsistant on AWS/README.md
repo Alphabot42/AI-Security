@@ -39,7 +39,14 @@ Unlike traditional AI assistants, this chatbot:
 ---
 
 ## 🎥 Demo Video
-[![Watch demo](./demo.png)](./video196300104.mp4)
+
+<p align="center">
+  <img src="./demo.gif" width="800"/>
+</p>
+
+<p align="center">
+👉 <a href="./video196300104.mp4">Watch full demo</a>
+</p>
 
 👉 Full demo:
 ```bash
