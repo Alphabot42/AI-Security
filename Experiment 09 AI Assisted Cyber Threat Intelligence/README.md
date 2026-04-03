@@ -2,11 +2,11 @@
 ⭐ <b>If you find this work useful, consider starring the repository!</b>
 </p>
 
-# 🛡️ Experiment 09 – AI Assisted Cyber Threat Intelligence
+#  Experiment 09 - AI Assisted Cyber Threat Intelligence
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This experiment explores how Large Language Models (LLMs) can assist Cyber Threat Intelligence (CTI) analysts while ensuring:
 
@@ -19,7 +19,7 @@ Unlike generic AI assistants, this project focuses on **defensive AI security ap
 
 ---
 
-## 🧠 Key Concept
+##  Key Concept
 
 The goal is to build a **Secure CTI Assistant** that:
 
@@ -31,7 +31,7 @@ The goal is to build a **Secure CTI Assistant** that:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Experiment 09/
@@ -50,15 +50,15 @@ Experiment 09/
 
 ---
 
-## ⚙️ Architecture
+##  Architecture
 
-### 🔹 09A – Local Secure CTI Assistant
+###  09A – Local Secure CTI Assistant
 
 - Dataset-driven
 - No external calls
 - Safe and deterministic behavior
 
-👉 Goal: **prove reliability and security**
+--> Goal: **prove reliability and security**
 
 ---
 
@@ -71,14 +71,14 @@ Built using:
 - Secure memory and identity
 - Streamlit frontend chatbot
 
-👉 Features:
+--> Features:
 
 - Real-time chatbot interface
 - Authentication (Cognito)
 - Secure runtime invocation
 - Dataset-grounded responses only
 
-👉 Goal: **POC → production-ready AI system**
+--> Goal: **POC → production-ready AI system**
 
 ---
 
@@ -101,13 +101,13 @@ Tell me more about T1078
 What vulnerability does Salt Typhoon exploit?
 ```
 
-👉 Goal: **Demo for recruiters / real usage**
+--> Goal: **Demo for recruiters / real usage**
 
 ---
 
-### 🔹 09C – Multi-Source CTI Assistant (Next Step)
+###  09C – Multi-Source CTI Assistant (Next Step)
 
-🚨 This is where it becomes **real CTI**
+ This is where it becomes **real CTI**
 
 Instead of relying only on a dataset:
 
@@ -123,7 +123,7 @@ The assistant will dynamically query:
 
 ---
 
-## 🧩 Target Architecture (09C)
+##  Target Architecture (09C)
 
 ```
 User
@@ -144,7 +144,7 @@ Final Answer (with sources + confidence)
 
 ---
 
-## 🔐 Security Design
+##  Security Design
 
 This project focuses on **Defensive AI Security**:
 
@@ -156,7 +156,7 @@ This project focuses on **Defensive AI Security**:
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 
 ```
 IP: 14.143.247.202 → malicious
@@ -177,7 +177,7 @@ MITRE ATT&CK:
 
 ---
 
-## 🚀 Why This Project Matters
+##  Why This Project Matters
 
 Most AI assistants:
 
@@ -194,7 +194,7 @@ This project demonstrates:
 
 ---
 
-## 🧭 Roadmap
+##  Roadmap
 
 - [x] 09A – Local secure assistant
 - [x] 09B – AWS production deployment
@@ -206,7 +206,7 @@ This project demonstrates:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 AI Security Specialist with a strong background in Malware Reverse Engineering and Cyber Threat Intelligence.
 
