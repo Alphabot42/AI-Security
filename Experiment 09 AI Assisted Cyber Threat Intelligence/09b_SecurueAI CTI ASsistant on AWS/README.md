@@ -42,5 +42,9 @@ Unlike traditional AI assistants, this chatbot:
 
 👉 Full demo:
 
+## 🎥 Demo
+
+![Demo](./demo.gif)
+
 ```bash
 video196300104.mp4
