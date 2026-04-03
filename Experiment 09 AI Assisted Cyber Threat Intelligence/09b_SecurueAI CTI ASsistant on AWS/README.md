@@ -33,10 +33,6 @@ Unlike traditional AI assistants, this chatbot:
 
 ---
 
-### 🧪 Example Response
-![Demo](./demo.png)
-
----
 
 ## 🎥 Demo Video
 
