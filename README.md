@@ -65,11 +65,11 @@ The projects are organized into five progressive phases:
 |-------------|--------------------|
 | LLM01 Prompt Injection | LLM Evasion Attacks, Prompt Injection Defense |
 | LLM02 Insecure Output Handling | Adversarial ML Attacks |
-| LLM03 Training Data Poisoning | Backdoor Poisoning |
+| LLM03 Training Data Poisoning | Backdoor Poisoning, SecMLOps Airflow Weather Pipeline |
 | LLM04 Model Denial of Service | Adversarial Input Attacks |
-| LLM06 Sensitive Information Disclosure | Membership Inference |
+| LLM06 Sensitive Information Disclosure | Membership Inference, SecMLOps Airflow Weather Pipeline |
 | LLM07 Insecure Plugin Design | AI Cybersecurity Tooling |
-| LLM08 Excessive Agency | Autonomous Detection Systems |
+| LLM08 Excessive Agency | Autonomous Detection Systems, SecMLOps Airflow Weather Pipeline |
 | LLM09 Overreliance | Adversarial Detection |
 | LLM10 Model Theft | Model Stealing Attacks |
 
