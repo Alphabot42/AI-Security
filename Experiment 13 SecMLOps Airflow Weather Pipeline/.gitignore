@@ -1,0 +1,16 @@
+.env
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.pickle
+*.pkl
+raw_files/*.json
+clean_data/*.csv
+clean_data/*.json
+clean_data/*.pickle
+clean_data/*.pkl
+model_metadata.json
+security_audit.json
+screenshots.zip
