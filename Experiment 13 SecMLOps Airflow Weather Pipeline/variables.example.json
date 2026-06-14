@@ -1,0 +1,4 @@
+{
+  "cities": ["zurich", "london", "washington"],
+  "api_key": "replace_with_openweathermap_api_key"
+}
