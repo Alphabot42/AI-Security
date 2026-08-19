@@ -51,20 +51,43 @@ Then run the notebooks inside each experiment folder.
 
 ## Experiments
 
-### 04a — Prompt Injection Defense (RAG / Bank scenario)
+### 04A — [Prompt Injection Defense — RAG / Bank scenario](RAG_Prompt_Injection_Attack_Defense_Demo_Bank)
 
-- Simulated sensitive environment (bank context)
+- Simulated sensitive environment in a banking context
 - Injection through retrieved documents
+- RAG hijacking scenario
 - Evaluation of model behavior under adversarial prompts
 
 ---
 
-### 04b — Prompt Injection on LLM (Mistral)
+### 04B — [Prompt Injection on LLM — Mistral banking assistant](RAG_Prompt_Injection_Attack_Defense_Demo_Mistral)
 
+- Local Mistral assistant executed through Ollama
 - Direct prompt manipulation
 - Instruction override attacks
-- Comparative analysis of model robustness
+- Vulnerable banking-assistant behavior
+- First hardened version and comparative analysis of model robustness
 
+---
+
+### 04C — [Prompt Injection Detection Engine](Prompt_Injection_Detection_Engine)
+
+- Compact detection proof of concept
+- Small handcrafted dataset of benign and prompt-injection examples
+- TF-IDF and Logistic Regression baseline
+- Hugging Face prompt-injection classifier comparison
+- Adversarial examples and detection limitations
+- Security takeaway: detection is necessary, but not sufficient
+
+---
+
+### 04D — [Prompt Injection Response System](Prompt_injection_Response_System)
+
+- SOC-oriented extension of the detection workflow
+- Larger SOC-enriched dataset prepared under `Dataset_SOC/`
+- Prompt-injection events transformed into security alerts
+- Triage, severity assignment, evidence preservation and containment recommendation
+- Incident-report generation for SOC and incident-response workflows
 ---
 
 ## Key Insight
