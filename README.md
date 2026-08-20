@@ -76,7 +76,7 @@ The projects are organized into five progressive phases:
 
 ---
 
-# Repository Structure
+
 
 ```
 # Repository Structure
