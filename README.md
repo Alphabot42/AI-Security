@@ -84,43 +84,74 @@ The projects are organized into five progressive phases:
 ```text
 AI-Security
 │
-├── 0-Practical Adversarial Attacks on Vision Models FGSM Attack on CIFAR 10
+├── 0-Practical Adversarial Attacks on Vision Models FGSM Attack on CIFAR 10 using ART
 │
 ├── Experiment 01 Adversarial Examples in Practice Breaking a Vision Model with FGSM
+│   ├── env/
+│   ├── 01_LLM_Security_series_adversarial...
+│   └── README_Experiment_01.md
 │
 ├── Experiment 02 Detecting and Defending Against Adversarial Attacks on Machine Learning Models
+│   ├── 02_LLM_security_series-Attack_Defense_...
+│   ├── 02_Requirements_files/
+│   ├── 02b_Pretrained_model_variant/
+│   ├── 02c_Defending_Against_Adversarial_...
+│   ├── 02d_Defending_Against_Adversarial_...
+│   ├── 02e_Train_a_detector_on_MNIST_...
+│   ├── 02f_Input_Transform/
+│   ├── data/MNIST/raw/
+│   ├── README.md
+│   ├── cover_experiment_02.png
+│   ├── adv_training_improvement.png
+│   ├── detector_performance.png
+│   └── robustness_curve.png
 │
 ├── Experiment 03 Evasion Attack on Sentiment Analysis_HFexplore_Llama
+│   ├── Evasion Attack on huggingface Models
+│   ├── Evasion Attack on llama LLM
+│   ├── README.md
+│   └── cover_experiment_03.png
 │
 ├── Experiment 04 Securing Large Language Models Against Prompt Injection and Data Exfiltration
-│   │
-│   ├── RAG_Prompt_Injection_Attack_Defense_Demo_Bank
+│   ├── RAG_Prompt_Injection_Attack_Defense_Demo_Bank/
 │   │   └── 04A — RAG hijacking attack scenario in a banking context
 │   │
-│   ├── RAG_Prompt_Injection_Attack_Defense_Demo_Mistral
+│   ├── RAG_Prompt_Injection_Attack_Defense_Demo_Mistral/
 │   │   └── 04B — Vulnerable and hardened Mistral banking assistant
 │   │
-│   ├── Prompt_Injection_Detection_Engine
+│   ├── Prompt_Injection_Detection_Engine/
 │   │   └── 04C — Prompt-injection detection engine
 │   │
-│   └── Prompt_Injection_Response_System
-│       └── 04D — Public SOC/IR response showcase
+│   ├── Prompt_Injection_Response_System/
+│   │   └── 04D — Public SOC/IR response showcase
+│   │
+│   ├── Cat_inject.png
+│   └── README.md
 │
 ├── Experiment 08 Anomalies Detection on OT pipeline
 │
 ├── Experiment 09 AI Assisted Cyber Threat Intelligence
 │
 ├── Experiment 13 SecMLOps Airflow Weather Pipeline
+│   ├── dags/
+│   ├── docs/
+│   ├── sample_data/
+│   ├── screenshots/
+│   ├── .gitignore
+│   ├── README.md
+│   ├── README_SCREENSHOTS.md
+│   ├── SECURITY.md
+│   ├── docker-compose.yaml
+│   └── variables.example.json
 │
-├── AI_security_baseline_checklist.md
-├── AI_security_baseline_checklist.docx
+├── .gitattributes
 ├── AI-Tools.csv
+├── AI_security_baseline_checklist.docx
+├── AI_security_baseline_checklist.md
 ├── Claude_Guide.jpg
 ├── open-source for pentest ML-AI.txt
 └── README.md
 ```
-```
-
 ---
 
 # Author
