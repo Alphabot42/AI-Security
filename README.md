@@ -57,7 +57,6 @@ The projects are organized into five progressive phases:
 | Phase 5 – AI for Cybersecurity    | AI Assisted Malware Reverse Engineering             | 09d AI malware deobfuscation         | LLM06 SID, LLM07 Plugin Design         | Defensive AI Security              | ░░░░░░░░░░ 0%   |
 | Phase 5 – AI for Cybersecurity    | AI Assisted Forensics                               | 09e AI forensic investigation        | LLM06, LLM02, LLM08, LLM07             | Defensive AI Security              | ░░░░░░░░░░ 0%   |
 | Capstone                          | Detecting AI Powered Malware                        | 10 AI malware detection system       | LLM08 Excessive Agency, LLM02 IOH      | Defensive AI Security              | ░░░░░░░░░░ 0%   |
-```
 
 ---
 
