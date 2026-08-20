@@ -1,0 +1,56 @@
+{
+  "dataset_rows": 250000,
+  "soc_alerts": 75000,
+  "alert_ratio": 0.3,
+  "label_distribution": {
+    "0": 175000,
+    "1": 75000
+  },
+  "severity_distribution": {
+    "INFO": 175000,
+    "HIGH": 63869,
+    "MEDIUM": 11131
+  },
+  "soc_action_distribution": {
+    "log_only": 175000,
+    "alert_and_block": 63869,
+    "alert_and_review": 11131
+  },
+  "triage_priority_distribution": {
+    "P1": 41966,
+    "P2": 21903,
+    "P3": 11131
+  },
+  "incident_class_distribution": {
+    "jailbreak_or_instruction_override": 48749,
+    "direct_prompt_injection": 26251
+  },
+  "containment_distribution": {
+    "L3_degraded_or_blocked_mode": 41966,
+    "L2_block_and_investigate": 21903,
+    "L1_alert_and_review": 11131
+  },
+  "log_source_distribution": {
+    "unsw_nb15": 35953,
+    "cicids2017": 9025,
+    "kaggle_cybersecurity_threat_detection_logs": 6013,
+    "loghub2_openstack": 1781,
+    "loghub2_bgl": 1767,
+    "loghub2_hpc": 1763,
+    "loghub2_zookeeper": 1749,
+    "loghub2_proxifier": 1732,
+    "loghub2_healthapp": 1723,
+    "loghub2_thunderbird": 1713,
+    "loghub2_apache": 1710,
+    "loghub2_linux": 1709,
+    "loghub2_hdfs": 1697,
+    "loghub2_spark": 1689,
+    "loghub2_openssh": 1688,
+    "loghub2_hadoop": 1653,
+    "loghub2_mac": 1635
+  },
+  "prompt_source_distribution": {
+    "lmsys/toxic-chat": 48749,
+    "deepset_prompt_injections": 26251
+  }
+}

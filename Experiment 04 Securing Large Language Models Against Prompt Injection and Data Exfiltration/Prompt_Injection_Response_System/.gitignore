@@ -1,0 +1,14 @@
+# Private MVP notebook / full implementation
+04d_Prompt_Injection_SOC_Response_System_MVP_Article.ipynb
+
+# Large generated outputs kept locally / private
+outputs_04d_mvp/04d_soc_alerts_mvp.csv
+outputs_04d_mvp/04d_evidence_packages_mvp.csv
+
+# Runtime / cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Legacy notebooks kept private
+legacy/*.ipynb
