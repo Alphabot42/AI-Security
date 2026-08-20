@@ -44,6 +44,8 @@ The projects are organized into five progressive phases:
 | Phase 2 – Modern Models (LLM)     | Evasion Attack on Sentiment Analysis                | 03b Llama evasion attack             | LLM01 Prompt Injection, LLM06 SID      | Offensive / Defensive AI Security  | ██████████ 100% |
 | Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection              | 04a Attack_Defense_RAG_Hijacking     | LLM01 Prompt Injection, LLM06 SID      | Defensive AI Security              | ██████████ 100% |
 | Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection              | 04b Mistral prompt injection defenses| LLM01 Prompt Injection, LLM06 SID      | Defensive AI Security              | ██████████ 100% |
+| Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection              | 04c Prompt Injection Detection Engine | LLM01 Prompt Injection, LLM06 SID      | Defensive AI Security / Detection Engineering | ██████████ 100% |
+| Phase 2 – Modern Models (LLM)     | Securing LLMs Against Prompt Injection              | 04d SOC/IR Prompt Injection Response System | LLM01 Prompt Injection, LLM06 SID, LLM08 Excessive Agency | Defensive AI Security / SOC / Incident Response | ██████████ 100% |
 | Phase 3 – Training Pipeline       | Membership Inference (Blackbox)                     | ART membership inference             | LLM06 Sensitive Information Disclosure | Offensive AI Security              | ██░░░░░░░░ 25%  |
 | Phase 3 – Training Pipeline       | Model Stealing (Copycat)                            | model extraction attack              | LLM10 Model Theft                      | Offensive AI Security              | █░░░░░░░░░ 10%  |
 | Phase 3 – Training Pipeline       | Training Data Poisoning (Backdoor)                  | ART poisoning attack                 | LLM03 Training Data Poisoning          | Offensive AI Security              | █░░░░░░░░░ 10%  |
@@ -78,21 +80,46 @@ The projects are organized into five progressive phases:
 # Repository Structure
 
 ```
-AI Security
+# Repository Structure
+
+```text
+AI-Security
+│
+├── 0-Practical Adversarial Attacks on Vision Models FGSM Attack on CIFAR 10
 │
 ├── Experiment 01 Adversarial Examples in Practice Breaking a Vision Model with FGSM
+│
 ├── Experiment 02 Detecting and Defending Against Adversarial Attacks on Machine Learning Models
-├── Experiment 03 Evasion Attack on Sentiment Analysis
-├── Experiment 04 ART Membership Inference Blackbox
-├── Experiment 05 Model Stealing Copycat
-├── Experiment 06 ART Poisoning Backdoor
-├── Experiment 07 Anomalies Detection on OT pipeline
-├── Experiment 08 AI Assisted Cyber Threat Intelligence
-├── Experiment 09 Securing Large Language Models Against Prompt Injection
-├── Experiment 10 AI Assisted Malware Reverse Engineering
-├── Experiment 11 AI Assisted Forensics
-├── Experiment 12 Detecting AI Powered Malware
-└── Experiment 13 SecMLOps Airflow Weather Pipeline
+│
+├── Experiment 03 Evasion Attack on Sentiment Analysis_HFexplore_Llama
+│
+├── Experiment 04 Securing Large Language Models Against Prompt Injection and Data Exfiltration
+│   │
+│   ├── RAG_Prompt_Injection_Attack_Defense_Demo_Bank
+│   │   └── 04A — RAG hijacking attack scenario in a banking context
+│   │
+│   ├── RAG_Prompt_Injection_Attack_Defense_Demo_Mistral
+│   │   └── 04B — Vulnerable and hardened Mistral banking assistant
+│   │
+│   ├── Prompt_Injection_Detection_Engine
+│   │   └── 04C — Prompt-injection detection engine
+│   │
+│   └── Prompt_Injection_Response_System
+│       └── 04D — Public SOC/IR response showcase
+│
+├── Experiment 08 Anomalies Detection on OT pipeline
+│
+├── Experiment 09 AI Assisted Cyber Threat Intelligence
+│
+├── Experiment 13 SecMLOps Airflow Weather Pipeline
+│
+├── AI_security_baseline_checklist.md
+├── AI_security_baseline_checklist.docx
+├── AI-Tools.csv
+├── Claude_Guide.jpg
+├── open-source for pentest ML-AI.txt
+└── README.md
+```
 ```
 
 ---
