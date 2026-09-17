@@ -18,13 +18,14 @@ This repository is structured as a progressive research roadmap, starting from a
 
 # Research Phases
 
-The projects are organized into five progressive phases:
+The projects are organized into five progressive research phases and a final capstone:
 
 1. Adversarial ML Foundations
-2. Modern Models (HF, LLM)
+2. Modern Models & Reinforcement Learning — LLM Security, Red/Blue Teaming and Autonomous Cyber Defense
 3. Training Pipeline Attacks
-4. Defense Systems and Real world Use Cases
-5. Applied AI for Cybersecurity (Malware, CTI and Forensics)
+4. Defense Systems, SecMLOps and Real-World Use Cases
+5. Applied AI for Cybersecurity — Malware, CTI and Digital Forensics
+6. Capstone — AI-Powered Malware Detection
 
 ---
 
@@ -43,8 +44,10 @@ The projects are organized into five progressive phases:
 | Phase 2 – Modern Models (LLM) | Evasion Attack on Sentiment Analysis | 03b Llama evasion attack | LLM01 Prompt Injection, LLM06 SID | Offensive / Defensive AI Security | ██████████ 100% |
 | Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04a Attack_Defense_RAG_Hijacking | LLM01 Prompt Injection, LLM06 SID | Defensive AI Security | ██████████ 100% |
 | Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04b Mistral prompt injection defenses | LLM01 Prompt Injection, LLM06 SID | Defensive AI Security | ██████████ 100% |
-| Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04c Prompt Injection Detection Engine | LLM01 Prompt Injection, LLM06 SID | Defensive AI Security / Detection Engineering | ██████████ 100% |
-| Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04d SOC/IR Prompt Injection Response System | LLM01 Prompt Injection, LLM06 SID, LLM08 Excessive Agency | Defensive AI Security / SOC / Incident Response | ██████████ 100% |
+| Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04c Prompt Injection Detection Engine | LLM01 Prompt Injection, LLM06 SID | Detection Engineering | ██████████ 100% |
+| Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04d SOC/IR Prompt Injection Response System | LLM01 Prompt Injection, LLM06 SID, LLM08 Excessive Agency | ██████████ 100% |
+| Phase 2 – Modern Models (LLM) | Adversarial LLM Red/Blue Team | 04e LLM Security Evaluation | LLM01 Prompt Injection, LLM06 SID  | Offensive / Defensive AI Security | ░░░░░░░░░░ 0%   |
+| Phase 2 – Modern Models & RL | Autonomous Cyber Defense with Reinforcement Learning | 04f Cybersecurity RL | — | Reinforcement Learning / AI Security / Autonomous Cyber Defense | █░░░░░░░░░ 10% |
 | Phase 3 – Training Pipeline | Membership Inference (Blackbox) | ART membership inference | LLM06 Sensitive Information Disclosure | Offensive AI Security | ██░░░░░░░░ 25% |
 | Phase 3 – Training Pipeline | Model Stealing (Copycat) | model extraction attack | LLM10 Model Theft | Offensive AI Security | █░░░░░░░░░ 10% |
 | Phase 3 – Training Pipeline | Training Data Poisoning (Backdoor) | ART poisoning attack | LLM03 Training Data Poisoning | Offensive AI Security | █░░░░░░░░░ 10% |
@@ -53,7 +56,7 @@ The projects are organized into five progressive phases:
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09a Secure AI CTI Assistant | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ██████████ 100% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09b AI CTI Assistant on AWS | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ██████████ 100% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09c malware adversary tracking | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | █░░░░░░░░░ 10% |
-| Phase 5 – AI for Cybersecurity | AI Assisted Malware Reverse Engineering | 09d AI malware deobfuscation | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ██░░░░░░░░ 25% |
+| Phase 5 – AI for Cybersecurity | AI Assisted Malware Reverse Engineering | 09d AI malware deobfuscation | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ████░░░░░░ 40% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Forensics | 09e AI forensic investigation | LLM06, LLM02, LLM08, LLM07 | Defensive AI Security | ░░░░░░░░░░ 0% |
 | Capstone | Detecting AI Powered Malware | 10 AI malware detection system | LLM08 Excessive Agency, LLM02 IOH | Defensive AI Security | ░░░░░░░░░░ 0% |
 
@@ -117,12 +120,19 @@ AI-Security
 │   │   └── 04C — Prompt-injection detection engine
 │   ├── Prompt_Injection_Response_System/
 │   │   └── 04D — Public SOC/IR response showcase
+│   ├── 04E — Adversarial LLM Red/Blue Team
+│   ├── 04F — Autonomous Cyber Defense with Reinforcement Learning
 │   ├── Cat_inject.png
 │   └── README.md
 │
 ├── Experiment 08 Anomalies Detection on OT pipeline
 │
 ├── Experiment 09 AI Assisted Cyber Threat Intelligence
+│   ├── 09A — Secure AI CTI Assistant
+│   ├── 09B — AI CTI Assistant on AWS
+│   ├── 09C — Malware adversary tracking
+│   ├── 09D — AI malware deobfuscation
+│   └── 09E — AI forensic investigation
 │
 ├── Experiment 13 SecMLOps Airflow Weather Pipeline
 │   ├── dags/
