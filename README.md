@@ -45,7 +45,7 @@ The projects are organized into five progressive research phases and a final cap
 | Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04a Attack_Defense_RAG_Hijacking | LLM01 Prompt Injection, LLM06 SID | Defensive AI Security | ██████████ 100% |
 | Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04b Mistral prompt injection defenses | LLM01 Prompt Injection, LLM06 SID | Defensive AI Security | ██████████ 100% |
 | Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04c Prompt Injection Detection Engine | LLM01 Prompt Injection, LLM06 SID | Detection Engineering | ██████████ 100% |
-| Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04d SOC/IR Prompt Injection Response System | LLM01 Prompt Injection, LLM06 SID, LLM08 Excessive Agency | ██████████ 100% |
+| Phase 2 – Modern Models (LLM) | Securing LLMs Against Prompt Injection | 04d SOC/IR Prompt Injection Response System | LLM01 Prompt Injection, LLM06 SID, LLM08 Excessive Agency | Defensive AI Security / SOC / Incident Response | ██████████ 100% |
 | Phase 2 – Modern Models (LLM) | Adversarial LLM Red/Blue Team | 04e LLM Security Evaluation | LLM01 Prompt Injection, LLM06 SID  | Offensive / Defensive AI Security | ░░░░░░░░░░ 0%   |
 | Phase 2 – Modern Models & RL | Autonomous Cyber Defense with Reinforcement Learning | 04f Cybersecurity RL | — | Reinforcement Learning / AI Security / Autonomous Cyber Defense | █░░░░░░░░░ 10% |
 | Phase 3 – Training Pipeline | Membership Inference (Blackbox) | ART membership inference | LLM06 Sensitive Information Disclosure | Offensive AI Security | ██░░░░░░░░ 25% |
