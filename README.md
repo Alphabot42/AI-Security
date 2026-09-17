@@ -48,12 +48,12 @@ The projects are organized into five progressive phases:
 | Phase 3 – Training Pipeline | Membership Inference (Blackbox) | ART membership inference | LLM06 Sensitive Information Disclosure | Offensive AI Security | ██░░░░░░░░ 25% |
 | Phase 3 – Training Pipeline | Model Stealing (Copycat) | model extraction attack | LLM10 Model Theft | Offensive AI Security | █░░░░░░░░░ 10% |
 | Phase 3 – Training Pipeline | Training Data Poisoning (Backdoor) | ART poisoning attack | LLM03 Training Data Poisoning | Offensive AI Security | █░░░░░░░░░ 10% |
-| Phase 4 – Defense Systems | Anomaly Detection on OT Pipeline | OT anomaly detection | LLM08 Excessive Agency | DPM / DS / ML / MLOps | ████████░░ 75% |
+| Phase 4 – Defense Systems | Anomaly Detection on OT Pipeline | OT anomaly detection | LLM08 Excessive Agency | DPM / DS / ML / MLOps | ██████████ 100% |
 | Phase 4 – Defense Systems | SecMLOps | Airflow Weather Pipeline | LLM03 Training Data Poisoning, LLM06 SID, LLM08 Excessive Agency | SecMLOps | ██░░░░░░░░ 25% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09a Secure AI CTI Assistant | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ██████████ 100% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09b AI CTI Assistant on AWS | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ██████████ 100% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09c malware adversary tracking | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | █░░░░░░░░░ 10% |
-| Phase 5 – AI for Cybersecurity | AI Assisted Malware Reverse Engineering | 09d AI malware deobfuscation | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ░░░░░░░░░░ 0% |
+| Phase 5 – AI for Cybersecurity | AI Assisted Malware Reverse Engineering | 09d AI malware deobfuscation | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ██░░░░░░░░ 25% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Forensics | 09e AI forensic investigation | LLM06, LLM02, LLM08, LLM07 | Defensive AI Security | ░░░░░░░░░░ 0% |
 | Capstone | Detecting AI Powered Malware | 10 AI malware detection system | LLM08 Excessive Agency, LLM02 IOH | Defensive AI Security | ░░░░░░░░░░ 0% |
 
