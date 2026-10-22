@@ -208,6 +208,7 @@ The private MVP contains:
 - containment workflow logic
 - full generated artifacts
 
+
 ---
 
 ## Security takeaway
@@ -227,3 +228,33 @@ The public documentation and lightweight artifacts are provided for research and
 External datasets, pretrained models and third-party resources remain subject to their own licenses and usage conditions.
 
 The full SOC/IR MVP implementation is kept private.
+
+---
+
+### Source Code & Access
+
+This experiment presents an AI-driven SOC and Incident Response
+system designed to detect, investigate, and respond to prompt
+injection attacks and associated data exfiltration threats
+in LLM-based applications.
+
+The implementation is maintained in a separate private
+repository: `AI-Security-SOC-IR-MVP`.
+
+Access to the private repository can be granted upon request
+for technical review or research collaboration.
+
+Further technical details are available upon request.
+
+---
+
+### Related Publication
+
+**MISC – November 2026 Issue**
+
+Technical article covering this research, featured in
+one of the leading French-language cybersecurity magazines.
+
+- **Original publication:** French
+- **English version:** Planned
+- **Publication details and links:** To be added
