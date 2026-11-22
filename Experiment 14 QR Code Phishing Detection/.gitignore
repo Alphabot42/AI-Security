@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv*/
+fresh_environment/
+data/
+outputs/
+runtime/
+*.pickle
+*.joblib
+*.pt
+*.npz
+*.zip
+!04_quishing_reproduction_qa_bundle.zip

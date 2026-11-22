@@ -1,0 +1,5 @@
+check,status
+same-environment inference and saved-score parity,passed
+fresh isolated-environment inference and parity,passed
+model and threshold preservation,passed
+publication of dataset fixtures and final docu...,review pending

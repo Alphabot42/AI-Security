@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="global" name="GLOBAL Full research journey"><mxGraphModel grid="1" page="1" pageWidth="1100" pageHeight="1320"><root><mxCell id="0" /><mxCell id="1" parent="0" /><mxCell id="start" value="Research question&lt;br&gt;Detect QR phishing at a controlled false-alarm rate" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="210" y="5" width="580" height="65" as="geometry" /></mxCell><mxCell id="image" value="Image models and diagnostics&lt;br&gt;CNN, compact CNN, ResNet, XGBoost&lt;br&gt;Length and rendering sensitivity" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="115" width="470" height="85" as="geometry" /></mxCell><mxCell id="def" value="Image defense attempts&lt;br&gt;Binarization, augmentation,&lt;br&gt;adversarial and TRADES-style training" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="600" y="115" width="360" height="85" as="geometry" /></mxCell><mxCell id="utility" value="Sufficient low-FPR&lt;br&gt;utility and robustness?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="90" y="240" width="370" height="120" as="geometry" /></mxCell><mxCell id="url" value="Develop decoded-URL classifier&lt;br&gt;Character views plus 26 structural features&lt;br&gt;Image models retained as references" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="410" width="470" height="85" as="geometry" /></mxCell><mxCell id="rejected" value="Rejected or corrected options&lt;br&gt;Hashing, tokens, domain overlap,&lt;br&gt;threshold transfer failures" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="600" y="410" width="360" height="85" as="geometry" /></mxCell><mxCell id="cal" value="Separate fitting and calibration&lt;br&gt;1%, 2%, 3% domain-target experiments&lt;br&gt;Retain conservative 2% setting" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="540" width="470" height="85" as="geometry" /></mxCell><mxCell id="atk" value="Adaptive representation attacks&lt;br&gt;7 hostname-case and 69 path-encoding&lt;br&gt;stored-QR evasions on earlier revisions" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="670" width="470" height="85" as="geometry" /></mxCell><mxCell id="hard" value="Separate model hardening activity&lt;br&gt;Normalize hostname case and&lt;br&gt;unreserved path percent escapes" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="800" width="470" height="85" as="geometry" /></mxCell><mxCell id="gate" value="Known attacks blocked&lt;br&gt;and clean utility retained?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="90" y="935" width="370" height="120" as="geometry" /></mxCell><mxCell id="check" value="Bounded verification&lt;br&gt;69 stored attacks detected&lt;br&gt;Renewed path search: 0 / 755&lt;br&gt;Clean QR: 870 TP and 28 FP" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="600" y="935" width="360" height="120" as="geometry" /></mxCell><mxCell id="final" value="EXP08 stability and research milestone&lt;br&gt;3 fixed-split training seeds&lt;br&gt;Domain-cluster confidence intervals" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="1110" width="470" height="90" as="geometry" /></mxCell><mxCell id="open" value="R2 reproduction verified&lt;br&gt;Fresh process and isolated environment&lt;br&gt;Publish reviewed evidence and report" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="600" y="1110" width="360" height="90" as="geometry" /></mxCell><mxCell id="pixel" value="Pixel, module and transfer attacks&lt;br&gt;Stored-PNG payload verification&lt;br&gt;Decode failures excluded from evasions" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="600" y="245" width="360" height="110" as="geometry" /></mxCell><mxCell id="e0" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="def" target="pixel"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="start" target="image"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="image" target="def"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="image" target="utility"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e4" value="No" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="utility" target="url"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="url" target="rejected"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="url" target="cal"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="cal" target="atk"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="atk" target="hard"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e9" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="hard" target="gate"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e10" value="Yes" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="gate" target="check"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e11" value="Yes" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="gate" target="final"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e12" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="final" target="open"><mxGeometry relative="1" as="geometry" /></mxCell></root></mxGraphModel></diagram><diagram id="figure1" name="Figure 1 Image model development">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="900">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="EXP01 Course CNN baseline&lt;br&gt;Random split then domain-labelled split" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="DEV01 Compact CNN and longer training&lt;br&gt;27,394 versus 2,386,690 parameters" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="135" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="Better low-FPR&lt;br&gt;image detection?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="ResNet and image XGBoost&lt;br&gt;No decisive low-FPR gain" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="265" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="EXP04 Length and rendering audits&lt;br&gt;Image performance deteriorates" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="Does stronger image&lt;br&gt;training solve the issue?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="535" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="g" value="EXP07 Augmentation and&lt;br&gt;adversarial training remain limited" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="550" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h" value="EXP02 Develop decoded-URL branch&lt;br&gt;Keep image models as references" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="Audit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="f" target="g">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" value="URL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="f" target="h">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="figure2" name="Figure 2 Attack validity gates">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="870">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="Select labelled phishing source&lt;br&gt;Initially detected and readable" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="15" width="480" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="Generate candidate within declared&lt;br&gt;pixel or URL transformation budget" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="480" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="Save PNG and reload actual bytes&lt;br&gt;Check stored distortion if applicable" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="225" width="480" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="Exact required&lt;br&gt;payload recovered?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x" value="No valid evasion&lt;br&gt;Abstention or payload mismatch" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="355" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="Legitimate verdict at&lt;br&gt;unchanged threshold?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="515" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="y" value="Attack fails against classifier&lt;br&gt;Payload still detected" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#F0F1F3;strokeColor=#647080;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="Record verified evasion&lt;br&gt;Retain source ID and evidence" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="695" width="480" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="d" target="x">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="d" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="y">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="figure3" name="Figure 3 URL representation and calibration">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="905">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="EXP02 Multiview character URL model&lt;br&gt;Hashing test loses 33 detections" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="15" width="490" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="Is hostname-only&lt;br&gt;grouping sufficient?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="410" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="x" value="88 shared registrable groups&lt;br&gt;Rebuild fitting and calibration" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="135" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="Revised domain-separated split&lt;br&gt;Token comparison loses 16 detections" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="285" width="490" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="Do structural features&lt;br&gt;help domain errors?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="395" width="410" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="y" value="60 more detections across folds&lt;br&gt;Exploratory thresholds" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="EXP06 Three-way domain experiments&lt;br&gt;Separate fitting, calibration, evaluation" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="490" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="Does calibration transfer&lt;br&gt;within the URL FPR limit?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="670" width="410" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="z" value="3% setting reaches 6.10% FPR&lt;br&gt;Retain conservative 2% target" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="685" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="x">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="Rebuild" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="d" target="y">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="d" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" value="Revise" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="f" target="z">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="figure4" name="Figure 4 Retained inference pipeline">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="985">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="Stored 69 × 69 grayscale PNG&lt;br&gt;Restore the tested pixel convention" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="15" width="500" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="Decode with OpenCV and ZXing&lt;br&gt;Collect distinct nonempty payloads" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="120" width="500" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="Exactly one&lt;br&gt;accepted payload?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="230" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x" value="Abstain&lt;br&gt;Unreadable or conflicting content" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="245" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="Normalize supported hostname case&lt;br&gt;and unreserved path escapes" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="405" width="500" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="Extract character views and structure&lt;br&gt;Apply fitted logistic regression" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="525" width="500" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="Score ≥ frozen&lt;br&gt;threshold?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="645" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="y" value="Legitimate verdict&lt;br&gt;Below threshold" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#F0F1F3;strokeColor=#647080;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="665" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g" value="Phishing verdict" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="45" y="815" width="500" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="x">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="d" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="f" target="y">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="f" target="g">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="figure5" name="Figure 5 Adaptive attack and hardening journey">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1100" pageHeight="980">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a" value="Attack frozen character-and-structure model&lt;br&gt;Change hostname letter case only" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="510" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="Stored-QR&lt;br&gt;evasions verified?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="120" width="400" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="x" value="Yes 7 / 826 sources&lt;br&gt;44 sources excluded" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="135" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="DEV04 hardening&lt;br&gt;Lowercase supported hostnames" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="285" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="EXP13 attack evaluation&lt;br&gt;Percent-encode unreserved path characters" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="Stored-QR&lt;br&gt;evasions verified?" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0CE;strokeColor=#9C711C;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95" y="515" width="400" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="y" value="Yes 69 / 755 sources&lt;br&gt;Equivalence is conditional" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#FAE7E6;strokeColor=#A94442;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="300" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="DEV04 hardening&lt;br&gt;Decode supported unreserved path escapes" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E9F0F8;strokeColor=#335875;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g" value="EXP13 renewed search and PNG replay&lt;br&gt;0 new path evasions; 69 / 69 detected" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#E6F1EA;strokeColor=#367454;fontFamily=Arial;fontSize=18;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="795" width="510" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="x">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="d" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="y">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#5B6B7C;fontFamily=Arial;fontSize=16;" edge="1" parent="1" source="f" target="g">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
