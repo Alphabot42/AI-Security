@@ -1,0 +1,4 @@
+group,image_index,accepted,score,prediction
+clean,5,True,0.989164,1
+clean,31,True,0.036433,0
+stored_path_attack,4818,True,0.996262,1

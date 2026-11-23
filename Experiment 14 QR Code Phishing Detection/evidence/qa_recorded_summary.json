@@ -1,0 +1,37 @@
+{
+  "task": "Q14_04_QA01",
+  "technical_status": "passed_on_Cube_AI",
+  "evidence_basis": "Tables and successful completion in the supplied executed notebook",
+  "qa_run": "qa_20261122T140752771854Z",
+  "python": "3.11.15",
+  "source_notebook_sha256": "fb7a7cbdad35d0ddd94270ce199b2fe88dfe733aff411f0a21a87ef9f90a494d",
+  "seeds": [
+    42,
+    142,
+    242
+  ],
+  "clean": {
+    "images": 1956,
+    "phishing": 972,
+    "detected": 870,
+    "missed": 102,
+    "legitimate": 984,
+    "false_alarms": 28
+  },
+  "known_attack_pngs": 69,
+  "retained_url_pairs": 755,
+  "full_transformations": 8,
+  "fresh_samples_per_transformation": 16,
+  "same_learned_state_fingerprint_all_seeds": true,
+  "no_independent_split_repetition": true,
+  "verification_runtime_bytes_present_in_this_checkout": false,
+  "complete_qa_json_files_present_in_this_checkout": false,
+  "publication_status": "preparation_pending_verified_artifact_transfer",
+  "total_execution_minutes": null,
+  "limitations": [
+    "Previously inspected development validation, not a new independent test.",
+    "Blur sigma 1.0 caused abstention on every source.",
+    "The 16-image transformed subset is an environment parity check, not a new performance estimate.",
+    "Fresh environment uses the same host and Python major/minor version."
+  ]
+}

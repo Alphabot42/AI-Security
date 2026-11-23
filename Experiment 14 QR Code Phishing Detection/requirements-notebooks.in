@@ -1,0 +1,13 @@
+# Additional research/presentation dependencies; not a complete frozen environment.
+-r requirements-inference.txt
+pandas
+matplotlib
+Pillow
+ipykernel
+nbformat
+scikit-image
+torch==2.5.1
+torchvision
+xgboost
+tldextract
+qrcode==8.2

@@ -1,0 +1,38 @@
+[
+  {
+    "public_file": "01_quishing_cnn_baseline.ipynb",
+    "public_sha256": "719c5d8c739e3284ee7bbef25497f7075930907fded8fee202ccf8b00de3d17e",
+    "source_filename": "01_quishing_cnn_baseline(2).ipynb",
+    "source_sha256": "ce7882eb4d5252409ce42611e17cc2a1c3037b1a60a99425c0c5df5c62bde961",
+    "cell_count": 224,
+    "source_cells_changed": false,
+    "output_policy": "Outputs cleared in the public copy; source snapshot preserved privately."
+  },
+  {
+    "public_file": "02_quishing_robust_detection.ipynb",
+    "public_sha256": "417f1c08949e443b4baa6f1b8a26cf63476e836b3434931a1515bfca475650c3",
+    "source_filename": "02_quishing_robust_detection(3).ipynb",
+    "source_sha256": "fbea4171a2895e05a6b5c565844f80f8c5a61bf3eaa672ab8e57f080c117452a",
+    "cell_count": 372,
+    "source_cells_changed": false,
+    "output_policy": "Outputs cleared in the public copy; source snapshot preserved privately."
+  },
+  {
+    "public_file": "03_quishing_technical_demo.ipynb",
+    "public_sha256": "e06f8eaccb58f4aab726971f21f15624b8e58b444ba21411a507dc4915d6e12a",
+    "source_filename": "03_quishing_technical_demo(1).ipynb",
+    "source_sha256": "889749bf877d7bfc1f1646824f81391c1d7939f5e0b77b42ce5fcc74f37b20b8",
+    "cell_count": 36,
+    "source_cells_changed": false,
+    "output_policy": "Outputs cleared in the public copy; source snapshot preserved privately."
+  },
+  {
+    "public_file": "04_quishing_reproduction_qa.ipynb",
+    "public_sha256": "77d13339c91e5adcd9b07863b2a2881caf8f75a3c666528aa8060bb168cc59ae",
+    "source_filename": "04_quishing_reproduction_qa(1).ipynb",
+    "source_sha256": "fb7a7cbdad35d0ddd94270ce199b2fe88dfe733aff411f0a21a87ef9f90a494d",
+    "cell_count": 26,
+    "source_cells_changed": false,
+    "output_policy": "Recorded numeric outputs retained; experiment-root display path generalized."
+  }
+]

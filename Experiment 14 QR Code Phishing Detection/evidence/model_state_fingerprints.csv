@@ -1,0 +1,4 @@
+seed,source_checkpoint,threshold,learned_state_fingerprint
+42,outputs/quishing02/frozen_candidates/character...,0.533642,4629e22db7473321b2cd5a68b70a59cd
+142,outputs/quishing02/frozen_candidates/character...,0.533642,4629e22db7473321b2cd5a68b70a59cd
+242,outputs/quishing02/frozen_candidates/character...,0.533642,4629e22db7473321b2cd5a68b70a59cd
