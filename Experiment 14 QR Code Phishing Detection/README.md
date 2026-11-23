@@ -1,3 +1,7 @@
+<p align="center">
+  ⭐ <b>If you find this work useful, consider starring the repository!</b>
+</p>
+
 # QR phishing detection and representation attacks
 
 This V1 study compares image classifiers with classification of decoded URL text.
