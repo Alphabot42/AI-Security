@@ -1,0 +1,65 @@
+{
+  "experiment": "Q14_03_EXP08",
+  "models": [
+    {
+      "seed": 42,
+      "file": "model_checkpoints/model_seed_42.joblib",
+      "threshold": 0.533642223647152,
+      "sha256": "2c57f306b8be52a6b601645c5e1c152235ec71ef09ad59591a69d04c24c9836e"
+    },
+    {
+      "seed": 142,
+      "file": "model_checkpoints/model_seed_142.joblib",
+      "threshold": 0.533642223647152,
+      "sha256": "2c3c7279eefc78d0918feafe686e8bfd70b5e068d6184dad90fe0ec72b0634a0"
+    },
+    {
+      "seed": 242,
+      "file": "model_checkpoints/model_seed_242.joblib",
+      "threshold": 0.533642223647152,
+      "sha256": "4f7f23493db11e96d14f3ecd080c920a502a8765f103e9dcbcd68e9f9dbb09d3"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "protocol.json",
+      "sha256": "37374741de88e5b5328ea2573f556858ff7a141f7c1a797d0f5e2e4d05acb147"
+    },
+    {
+      "file": "subset_membership.csv",
+      "sha256": "50459b7319dd80d0e7fb48296ec4931346e02ad9057bcbc93ad8e3950990ca5e"
+    },
+    {
+      "file": "training_summary.csv",
+      "sha256": "23ad0e08067c9c8e5310b1eb4aa388a79f38c9cef4c8a39365f8ce97a6002327"
+    },
+    {
+      "file": "predictions.csv",
+      "sha256": "54305188e786363b63ebe1420bb7e5a575e23fb76b99011d1582c6ca362437cc"
+    },
+    {
+      "file": "path_attack_checks.csv",
+      "sha256": "92414c41584d75288c4eb575fecfea22311e26c1214660ac757fd37ca9b17468"
+    },
+    {
+      "file": "domain_cluster_confidence_intervals.csv",
+      "sha256": "d94d241b69cd69c44f63fe73500560e98d1e8389bb4c949624eeebcb464092bf"
+    },
+    {
+      "file": "validation_domain_groups.csv",
+      "sha256": "d45af3ea257f5ae674033a488b170a6f2bfe0a70c48c2d2c5014b5c95bc737bb"
+    },
+    {
+      "file": "stored_attack_decode_checks.csv",
+      "sha256": "a396b440dd236069cf0790e3aacc455e42376a3ce5d650deba40484e6f6bef84"
+    }
+  ],
+  "limitations": [
+    "Fixed data split; split variability was not evaluated.",
+    "Validation was previously inspected during development.",
+    "Attack checks replay known path-encoding examples.",
+    "Joblib checkpoints depend on notebook-defined functions.",
+    "Fresh-process verification of these checkpoints remains."
+  ],
+  "test_data_used": false
+}

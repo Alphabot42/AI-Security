@@ -1,0 +1,28 @@
+{
+  "technical_status": "passed",
+  "scope": "Frozen R2 inference and artifact lineage, not full-training rerun",
+  "source_research_notebook_sha256": "fbea4171a2895e05a6b5c565844f80f8c5a61bf3eaa672ab8e57f080c117452a",
+  "same_environment_result_sha256": "b97272eb4b06080cba1f7fb61adee2aacb10c3e3b89593a5b7e1246a11588c66",
+  "fresh_environment_result_sha256": "48f484ea778621d2ef6f95dbff3b2ad306386d20cd7d96471677a052826cdaf9",
+  "fresh_parity_records": 6203,
+  "seeds": [
+    42,
+    142,
+    242
+  ],
+  "clean_QRs_per_seed": 1956,
+  "known_path_attack_QRs_per_seed": 69,
+  "retained_path_pairs_per_seed": 755,
+  "R2_full_transformations_seed_42": 8,
+  "fresh_transformations_samples_per_condition": 16,
+  "model_retrained": false,
+  "threshold_recalibrated": false,
+  "publication_status": "pending review of dataset fixtures and report/README integration",
+  "limitations": [
+    "Previously inspected development validation.",
+    "Fixed fitting/calibration membership across seeds.",
+    "Known-attack replay, not a fresh adaptive search.",
+    "69 x 69 evaluated image convention only.",
+    "No live destination contacted; path equivalence remains conditional."
+  ]
+}

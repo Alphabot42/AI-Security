@@ -1,0 +1,33 @@
+{
+  "research_notebook_sha256": "fbea4171a2895e05a6b5c565844f80f8c5a61bf3eaa672ab8e57f080c117452a",
+  "functions": {
+    "n02_url_view": {
+      "cell": 245,
+      "sha256": "800ff5fa78715ac4f1428fa21fb135084dd277fb87da4a50b8c131309ba970fd"
+    },
+    "n02_url_structure": {
+      "cell": 306,
+      "sha256": "c51eab428b8d0db595d7b28e98c5be3ca423e7ae324864736eade922d3eb2d3d"
+    },
+    "n02_hostcase_identity": {
+      "cell": 329,
+      "sha256": "bc9edee8fd2389cda0ffca9df27afb8da70118ed7e82502637ccdc9aac0d8596"
+    },
+    "n02_normalize_host_one": {
+      "cell": 333,
+      "sha256": "46268e4df0821cddf9413ee181ea5cbc5c6f8622db875794f00d68a295794b01"
+    },
+    "n02_path_equivalence_form": {
+      "cell": 352,
+      "sha256": "3fe31bcc7c03ec1bc900d0318c49babde3430411131465f1392e27676c598c41"
+    },
+    "n02_normalize_host_path_one": {
+      "cell": 358,
+      "sha256": "5f9acd2ca791efbd9790e0edbd76a3ad66560b88f57ffa4a3b9e2ab1453612bf"
+    },
+    "n02_normalize_host_path_batch": {
+      "cell": 358,
+      "sha256": "53937d58ae1d4f11d5616f296d8792f2509d392d932efb8e065f6d3dabfc5ece"
+    }
+  }
+}

@@ -13,7 +13,7 @@ This folder contains the research report, supporting diagrams, reproducibility i
 | [Quishing_V1_Editable_Diagrams_v3.drawio](Quishing_V1_Editable_Diagrams_v3.drawio) | Editable source diagrams (diagrams.net / draw.io). |
 | [figures/](figures/) | Exported figures used in the research report and README. |
 | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) | Instructions, required artifacts and caveats for reproducing the V1 results. |
-| [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) | Current V1 publication checklist, including artifacts still pending transfer. |
+| [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) | Current V1 publication checklist and verified artifact delivery status. |
 | [ATTRIBUTION.md](ATTRIBUTION.md) | Dataset credits, scientific references, initial inspiration and AI-assistance disclosure. |
 
 For the project overview and notebooks, return to the [main Experiment 14 README](../README.md).

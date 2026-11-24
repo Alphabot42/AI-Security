@@ -1,0 +1,18 @@
+{
+  "README.txt": "68bdd7d60e1cca9791dd9db5bd7470060f8b9b15bc8630fdc937f3328a0b60ad",
+  "config.json": "ff67a0c183a688f5ac9aa3af424e7e3f99a5d1c5668a1055d81206305311ef54",
+  "data_membership.csv": "b2cb87de72aaaf7ffa413535b92554c10a029c058cc5a88336b1b6f0683269e4",
+  "fresh_process_results.npz": "9e4f2934df222657d319d9c1994d79819d459a21156753dd72eabdc50a6588bd",
+  "model.joblib": "bdf8dd6bb94280ec576796ab045f1cb8933da7c0075abbc9ba434951a8c932e7",
+  "qr_decoder.py": "e4f586bfcf7c5271c79ff9f1e055a6c8a4e74e8bbd7a66978d7f29910180fe42",
+  "qr_fresh_results.json": "b7cfed3ab46a67dc33b092f5698c4056e3cf3de9853f629717da897db64f228c",
+  "qr_pipeline.py": "cce37200a854f188fe6488dea371b0a3dc2cac7545d46a7671685700ed3801bd",
+  "qr_reload_verification.csv": "d7a562beaa88794c4bd5fce58caf7afa49e982d8ff518208f45b424baf7992f0",
+  "qr_verification_inputs.npz": "f6fbec304171530ecdca8d46d2629bd42e160e13ab4cb73d1634f959777f65da",
+  "requirements.txt": "2678faf6a9431f6b078dd761ae905f9977c9066c4313d4baa5e4f90341788437",
+  "url_features.py": "925f648608049a2bc2ea6b48c3caff41ea501065f84b498f7149701fc0d09030",
+  "verification_inputs.json": "b7111af327e603fe71e5103252105d97dcfca136366b842612d982f4d897e102",
+  "verification_report.json": "835c270683214d1af31ee96c94622336debeb7a2bc446ee2fcc6f1dd10863620",
+  "verify_qr_reload.py": "a4b029daa429ac07f39d0dff6a3b606dc69de2602c86fdfb2bb69b4c717e0ac6",
+  "verify_reload.py": "dc1ff8cdd615954a9af6bd9f2629dd0664639f3fab06e97f9c5fe749e05508e8"
+}

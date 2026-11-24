@@ -1,0 +1,4 @@
+seed,retained_path_pairs,originals_detected,maximum_pair_score_difference,retained_pair_evasions,stored_attack_PNGs,accepted_decodes,exact_candidate_payloads,exact_stored_candidates_detected,exact_stored_candidates_missed
+42,755,755,0.0,0,69,69,69,69,0
+142,755,755,0.0,0,69,69,69,69,0
+242,755,755,0.0,0,69,69,69,69,0

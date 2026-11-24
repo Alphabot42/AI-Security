@@ -1,0 +1,41 @@
+Clean QR: 250/1956
+Clean QR: 500/1956
+Clean QR: 750/1956
+Clean QR: 1000/1956
+Clean QR: 1250/1956
+Clean QR: 1500/1956
+Clean QR: 1750/1956
+Clean QR: 1956/1956
+rotate_90: 500/1956
+rotate_90: 1000/1956
+rotate_90: 1500/1956
+rotate_90: 1956/1956
+rotate_180: 500/1956
+rotate_180: 1000/1956
+rotate_180: 1500/1956
+rotate_180: 1956/1956
+rotate_270: 500/1956
+rotate_270: 1000/1956
+rotate_270: 1500/1956
+rotate_270: 1956/1956
+jpeg_90: 500/1956
+jpeg_90: 1000/1956
+jpeg_90: 1500/1956
+jpeg_90: 1956/1956
+jpeg_60: 500/1956
+jpeg_60: 1000/1956
+jpeg_60: 1500/1956
+jpeg_60: 1956/1956
+blur_0.5: 500/1956
+blur_0.5: 1000/1956
+blur_0.5: 1500/1956
+blur_0.5: 1956/1956
+blur_1.0: 500/1956
+blur_1.0: 1000/1956
+blur_1.0: 1500/1956
+blur_1.0: 1956/1956
+contrast_0.65: 500/1956
+contrast_0.65: 1000/1956
+contrast_0.65: 1500/1956
+contrast_0.65: 1956/1956
+Verification passed; results saved to same_environment_results.json

@@ -1,0 +1,31 @@
+{
+  "experiment": "Q14_03_EXP08",
+  "candidate": "hostname-and-unreserved-path normalized characters + structure",
+  "training_seeds": [
+    42,
+    142,
+    242
+  ],
+  "split_policy": "fixed existing fitting/calibration/validation subsets",
+  "calibration": {
+    "method": "equal total weight per legitimate calibration domain",
+    "target": 0.02,
+    "threshold_selected_separately_per_fitted_model": true,
+    "refit_after_calibration": false
+  },
+  "operational_URL_false_positive_limit": 0.05,
+  "evaluation_policy": {
+    "same_examples_across_repetitions": true,
+    "report_each_seed_without_selecting_a_winner": true,
+    "confidence_interval_unit": "registrable domain",
+    "confidence_interval_method": "paired domain-cluster bootstrap",
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 542,
+    "validation_previously_inspected": true,
+    "test_data_used": false
+  },
+  "reference_model_fingerprint": "b8d03460869167034c0436f1598c89d9",
+  "reference_threshold": 0.533642223647152,
+  "template_fingerprint": "5096e9db3ccdaab1e2206cc825f4d272",
+  "membership_sha256": "50459b7319dd80d0e7fb48296ec4931346e02ad9057bcbc93ad8e3950990ca5e"
+}

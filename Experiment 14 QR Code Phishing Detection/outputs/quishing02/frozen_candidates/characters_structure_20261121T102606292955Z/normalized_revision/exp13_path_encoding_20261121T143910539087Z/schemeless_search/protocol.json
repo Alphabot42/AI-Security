@@ -1,0 +1,23 @@
+{
+  "family": "percent_encoding_of_ASCII_unreserved_path_characters",
+  "model": "hostname-normalized characters + structure",
+  "threshold": 0.533642223647152,
+  "max_score_queries_per_source": 128,
+  "seed": 342,
+  "cohort": "755 eligible scheme-less sources from structure audit",
+  "preserved_components": [
+    "scheme",
+    "authority",
+    "query",
+    "fragment",
+    "path_separators"
+  ],
+  "equivalence": "RFC3986 unreserved-character percent normalization",
+  "live_destination_verified": false,
+  "pixel_budget_applies": false,
+  "test_data_used": false,
+  "model_fingerprint": "94739c5c81ebca1f41d19c2a66208fc3",
+  "interpretation": "hostname-plus-path web address assumption",
+  "scheme_added_to_classifier_input": false,
+  "search": "fixed patterns followed by score-guided mutation"
+}

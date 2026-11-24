@@ -1,0 +1,32 @@
+{
+  "revision": "R2 hostname-and-unreserved-path normalized",
+  "seeds": [
+    42,
+    142,
+    242
+  ],
+  "default_seed": 42,
+  "default_seed_policy": "fixed presentation convention; no winner selected",
+  "thresholds": {
+    "42": 0.533642223647152,
+    "142": 0.533642223647152,
+    "242": 0.533642223647152
+  },
+  "calibration_target": 0.02,
+  "image_shape": [
+    69,
+    69
+  ],
+  "source_python": "3.11.15 (main, Mar 11 2026, 17:20:07) [GCC 14.3.0]",
+  "distributions": {
+    "joblib": "1.5.3",
+    "numpy": "2.4.4",
+    "opencv-python": "4.13.0.92",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "threadpoolctl": "3.6.0",
+    "zxing-cpp": "3.1.1"
+  },
+  "retrained": false,
+  "recalibrated": false
+}

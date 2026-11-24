@@ -1,0 +1,51 @@
+{
+  "models": [
+    {
+      "seed": 42,
+      "source_checkpoint": "outputs/quishing02/frozen_candidates/characters_structure_20261121T102606292955Z/normalized_revision/exp08_repeated_training_20261121T170229937001Z/model_checkpoints/model_seed_42.joblib",
+      "source_sha256": "2c57f306b8be52a6b601645c5e1c152235ec71ef09ad59591a69d04c24c9836e",
+      "export_sha256": "96e14b9e45fbb30207e94cf7242f856dc12d092cb8c459023bd2cb040b234175",
+      "threshold": 0.533642223647152,
+      "learned_state_fingerprint": "4629e22db7473321b2cd5a68b70a59cd",
+      "rebound_function_parameters": [
+        "normalize_hostname_and_path__func",
+        "url_model__features__character_views__full__view__func",
+        "url_model__features__character_views__host__view__func",
+        "url_model__features__character_views__path__view__func",
+        "url_model__features__structure__extract__func"
+      ]
+    },
+    {
+      "seed": 142,
+      "source_checkpoint": "outputs/quishing02/frozen_candidates/characters_structure_20261121T102606292955Z/normalized_revision/exp08_repeated_training_20261121T170229937001Z/model_checkpoints/model_seed_142.joblib",
+      "source_sha256": "2c3c7279eefc78d0918feafe686e8bfd70b5e068d6184dad90fe0ec72b0634a0",
+      "export_sha256": "67300bf42f45e01d86b90cd1df6bbbed6e8b8d26e4c8cdc6a2efc42940310fc9",
+      "threshold": 0.533642223647152,
+      "learned_state_fingerprint": "4629e22db7473321b2cd5a68b70a59cd",
+      "rebound_function_parameters": [
+        "normalize_hostname_and_path__func",
+        "url_model__features__character_views__full__view__func",
+        "url_model__features__character_views__host__view__func",
+        "url_model__features__character_views__path__view__func",
+        "url_model__features__structure__extract__func"
+      ]
+    },
+    {
+      "seed": 242,
+      "source_checkpoint": "outputs/quishing02/frozen_candidates/characters_structure_20261121T102606292955Z/normalized_revision/exp08_repeated_training_20261121T170229937001Z/model_checkpoints/model_seed_242.joblib",
+      "source_sha256": "4f7f23493db11e96d14f3ecd080c920a502a8765f103e9dcbcd68e9f9dbb09d3",
+      "export_sha256": "b10df6e2776fbd6cca086f048deaca460315bb96667dee2cd980e3838628987a",
+      "threshold": 0.533642223647152,
+      "learned_state_fingerprint": "4629e22db7473321b2cd5a68b70a59cd",
+      "rebound_function_parameters": [
+        "normalize_hostname_and_path__func",
+        "url_model__features__character_views__full__view__func",
+        "url_model__features__character_views__host__view__func",
+        "url_model__features__character_views__path__view__func",
+        "url_model__features__structure__extract__func"
+      ]
+    }
+  ],
+  "research_manifest_sha256": "677fa74a6109771df0f7c3dc4ce7f6e0407ef210a76ad118fd7a9f13af013d06",
+  "decoder_source_sha256": "e4f586bfcf7c5271c79ff9f1e055a6c8a4e74e8bbd7a66978d7f29910180fe42"
+}

@@ -1,0 +1,10 @@
+{
+  "seed": 442,
+  "maximum_queries_per_source_including_original": 128,
+  "cohort": "previously eligible path-encoding sources",
+  "family": "ASCII unreserved path percent encoding",
+  "model_fingerprint": "b8d03460869167034c0436f1598c89d9",
+  "threshold": 0.533642223647152,
+  "search": "fixed masks followed by score-guided subset mutations",
+  "test_data_used": false
+}

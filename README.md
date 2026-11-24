@@ -58,7 +58,7 @@ The projects are organized into five progressive research phases and a final cap
 | Phase 5 – AI for Cybersecurity | AI Assisted Cyber Threat Intelligence | 09c malware adversary tracking | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | █░░░░░░░░░ 10% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Malware Reverse Engineering | 09d AI malware deobfuscation | LLM06 SID, LLM07 Plugin Design | Defensive AI Security | ████░░░░░░ 40% |
 | Phase 5 – AI for Cybersecurity | AI Assisted Forensics | 09e AI forensic investigation | LLM06, LLM02, LLM08, LLM07 | Defensive AI Security | ░░░░░░░░░░ 0% |
-| Phase 1 – Adversarial ML | [QR Phishing Detection and Representation Attacks](Experiment%2014%20QR%20Code%20Phishing%20Detection/README.md) | 14 — V1 research, demonstration and reproduction | — | Adversarial ML / URL Security / Reproducibility | V1 publication in progress |
+| Phase 1 – Adversarial ML | [QR Phishing Detection and Representation Attacks](Experiment%2014%20QR%20Code%20Phishing%20Detection/README.md) | 14 — V1 research, demonstration and reproduction | — | Adversarial ML / URL Security / Reproducibility | V1 published; reproduction verified |
 | Capstone | Detecting AI Powered Malware | 10 AI malware detection system | LLM08 Excessive Agency, LLM02 IOH | Defensive AI Security | ░░░░░░░░░░ 0% |
 
 ---
@@ -153,6 +153,9 @@ AI-Security
 │   ├── 03_quishing_technical_demo.ipynb
 │   ├── 04_quishing_reproduction_qa.ipynb
 │   ├── qa_support/
+│   ├── models/
+│   ├── data/
+│   ├── outputs/
 │   ├── docs/
 │   ├── evidence/
 │   ├── scripts/

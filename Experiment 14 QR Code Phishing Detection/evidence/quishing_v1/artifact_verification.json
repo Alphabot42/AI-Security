@@ -1,0 +1,231 @@
+{
+  "status": "passed",
+  "archive_sha256": "01ee579204e020bca577f75ab5784d9bf615da425c65bd8e21f401905cd3b8ab",
+  "archive_bytes": 16367129,
+  "transfer_files_verified": 4106,
+  "package_files_verified": 2045,
+  "historical_research_files_verified": 11,
+  "png_files_verified": 4050,
+  "clean_QRs": 1956,
+  "known_attack_QRs": 69,
+  "path_pairs_per_seed": 755,
+  "membership": {
+    "fitting": 4697,
+    "calibration": 1175,
+    "validation": 1956
+  },
+  "source_notebook_sha256": "fbea4171a2895e05a6b5c565844f80f8c5a61bf3eaa672ab8e57f080c117452a",
+  "models": [
+    {
+      "seed": 42,
+      "bytes": 2281578,
+      "source_sha256": "2c57f306b8be52a6b601645c5e1c152235ec71ef09ad59591a69d04c24c9836e",
+      "export_sha256": "96e14b9e45fbb30207e94cf7242f856dc12d092cb8c459023bd2cb040b234175",
+      "learned_state_fingerprint": "4629e22db7473321b2cd5a68b70a59cd",
+      "threshold": 0.533642223647152,
+      "learned_state_matches_source": true
+    },
+    {
+      "seed": 142,
+      "bytes": 2281578,
+      "source_sha256": "2c3c7279eefc78d0918feafe686e8bfd70b5e068d6184dad90fe0ec72b0634a0",
+      "export_sha256": "67300bf42f45e01d86b90cd1df6bbbed6e8b8d26e4c8cdc6a2efc42940310fc9",
+      "learned_state_fingerprint": "4629e22db7473321b2cd5a68b70a59cd",
+      "threshold": 0.533642223647152,
+      "learned_state_matches_source": true
+    },
+    {
+      "seed": 242,
+      "bytes": 2281578,
+      "source_sha256": "4f7f23493db11e96d14f3ecd080c920a502a8765f103e9dcbcd68e9f9dbb09d3",
+      "export_sha256": "b10df6e2776fbd6cca086f048deaca460315bb96667dee2cd980e3838628987a",
+      "learned_state_fingerprint": "4629e22db7473321b2cd5a68b70a59cd",
+      "threshold": 0.533642223647152,
+      "learned_state_matches_source": true
+    }
+  ],
+  "recorded_verifications": {
+    "same_environment_results.json": {
+      "records": 21723,
+      "transform_limit": 0,
+      "passed": true
+    },
+    "fresh_environment_results.json": {
+      "records": 6203,
+      "transform_limit": 16,
+      "passed": true
+    }
+  },
+  "independent_full_replay": {
+    "status": "passed",
+    "python": "3.12.14",
+    "source_python": "3.11.15",
+    "isolated_virtual_environment": true,
+    "exact_dependency_versions": {
+      "joblib": "1.5.3",
+      "numpy": "2.4.4",
+      "opencv-python": "4.13.0.92",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.1",
+      "threadpoolctl": "3.6.0",
+      "zxing-cpp": "3.1.1"
+    },
+    "records_compared": 21723,
+    "maximum_absolute_score_difference": 0.0,
+    "score_relative_tolerance": 1e-10,
+    "score_absolute_tolerance": 1e-12,
+    "payload_hashes_acceptance_and_decisions_match": true,
+    "elapsed_seconds": 1000.727778399,
+    "pair_checks": [
+      {
+        "seed": 42,
+        "pairs": 755,
+        "maximum_score_difference": 0.0,
+        "retained_pair_evasions": 0
+      },
+      {
+        "seed": 142,
+        "pairs": 755,
+        "maximum_score_difference": 0.0,
+        "retained_pair_evasions": 0
+      },
+      {
+        "seed": 242,
+        "pairs": 755,
+        "maximum_score_difference": 0.0,
+        "retained_pair_evasions": 0
+      }
+    ],
+    "groups": [
+      {
+        "group": "blur_0.5",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "blur_1.0",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 0,
+        "phishing_detected": 0,
+        "false_alarms": 0,
+        "abstentions": 1956
+      },
+      {
+        "group": "clean",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "clean",
+        "seed": 142,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "clean",
+        "seed": 242,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "contrast_0.65",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "jpeg_60",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "jpeg_90",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "rotate_180",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "rotate_270",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "rotate_90",
+        "seed": 42,
+        "images": 1956,
+        "accepted": 1956,
+        "phishing_detected": 870,
+        "false_alarms": 28,
+        "abstentions": 0
+      },
+      {
+        "group": "stored_path_attack",
+        "seed": 42,
+        "images": 69,
+        "accepted": 69,
+        "phishing_detected": 69,
+        "false_alarms": 0,
+        "abstentions": 0
+      },
+      {
+        "group": "stored_path_attack",
+        "seed": 142,
+        "images": 69,
+        "accepted": 69,
+        "phishing_detected": 69,
+        "false_alarms": 0,
+        "abstentions": 0
+      },
+      {
+        "group": "stored_path_attack",
+        "seed": 242,
+        "images": 69,
+        "accepted": 69,
+        "phishing_detected": 69,
+        "false_alarms": 0,
+        "abstentions": 0
+      }
+    ]
+  },
+  "scope": "Frozen-model inference on the recorded V1 cohorts, not new-data evaluation or retraining.",
+  "review_completed_before_publication": true,
+  "publication_format": "Individual files in repository directories"
+}

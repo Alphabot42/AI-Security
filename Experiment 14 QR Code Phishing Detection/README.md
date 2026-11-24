@@ -14,11 +14,17 @@ shortcuts, limited image-model utility at low false-alarm rates, nonuniform
 adversarial-training gains and a complete decoder availability failure under
 stronger blur.
 
-**Technical reproduction passed in my lab environment (Cube-AI). The frozen artifact release is being
-assembled.** The executed QA notebook is included; its exported model files,
-complete JSON results and verification fixtures must still be transferred from
-that successful run. The summary CSV files in this checkout are extracted from
-recorded notebook tables. They do not replace those artifacts.
+**The verified frozen R2 package is available as individual files in
+[models/quishing_v1](models/quishing_v1/).** It includes the three exported models,
+inference code, pinned requirements, hashes and verification fixtures. The
+[full lab and independent replay results](evidence/quishing_v1/README.md) and
+[original split manifest](data/qr_splits_seed42.csv) are also included.
+
+Technical reproduction passed in my lab environment (Cube-AI), using Python 3.11.15.
+A subsequent isolated Python 3.12.14 replay with the same pinned dependencies
+matched all 21,723 recorded image results with a maximum score difference of zero.
+It also verified 755 URL pairs per model. This replays the V1 cohorts; it does not
+provide a new performance estimate on independent data.
 
 ## Global overview of the research journey
 
@@ -116,7 +122,7 @@ splits. The confidence intervals resample 1,260 complete domain groups, with
 2,000 draws, while keeping fitted models and thresholds fixed.
 
 See [reproduction instructions](docs/REPRODUCIBILITY.md) for the exact prerequisites
-and current artifact availability.
+and the published frozen package.
 
 ## Attack definitions and limits
 
@@ -145,15 +151,18 @@ production readiness. URLBERT was considered but not evaluated.
 
 - [English report](docs/RESEARCH_REPORT.md) and [editable Word report](docs/Quishing_V1_Research_Report_EN_v4.docx).
 - [Editable diagrams](docs/Quishing_V1_Editable_Diagrams_v3.drawio).
+- [Frozen models and verification inputs](models/README.md).
 - [Reproduction instructions](docs/REPRODUCIBILITY.md).
+- [Full artifact verification](evidence/quishing_v1/README.md).
 - [Method, dataset and assistance attribution](docs/ATTRIBUTION.md).
 - [Recorded QA summaries](evidence/README.md).
 - [Release status](docs/PUBLICATION_STATUS.md).
 
 Run the notebooks locally in the experiment directory. The original research
 requires the source dataset and exact split manifest. The short inference route
-uses the frozen exported package. Downloading this folder alone does not supply
-its still-pending model artifacts.
+uses the included frozen exported package. The source dataset remains available
+from its authors for research training; it is not required to replay the included
+frozen-inference verification fixtures.
 
 ## Attribution and assistance
 

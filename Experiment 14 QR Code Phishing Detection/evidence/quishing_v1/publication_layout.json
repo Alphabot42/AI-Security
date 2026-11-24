@@ -1,0 +1,28 @@
+{
+  "source_transfer_sha256": "01ee579204e020bca577f75ab5784d9bf615da425c65bd8e21f401905cd3b8ab",
+  "mappings": [
+    {
+      "source": "outputs/quishing04/qa_20261122T140752771854Z/package/",
+      "destination": "models/quishing_v1/"
+    },
+    {
+      "source": "outputs/quishing04/qa_20261122T140752771854Z/<run-level files>",
+      "destination": "evidence/quishing_v1/lab/"
+    },
+    {
+      "source": "outputs/quishing02/",
+      "destination": "outputs/quishing02/"
+    },
+    {
+      "source": "data/qr_splits_seed42.csv",
+      "destination": "data/qr_splits_seed42.csv"
+    }
+  ],
+  "omitted": [
+    {
+      "file": "outputs/quishing04/qa_20261122T140752771854Z/fresh_environment_install.log",
+      "reason": "Installation log only; dependency versions and successful verification results are retained."
+    }
+  ],
+  "original_model_package_changed": false
+}
